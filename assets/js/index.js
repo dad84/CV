@@ -16,6 +16,11 @@ var Typer = {
     });
   },
 
+  function colorFunction() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+  },
+
   content: function () {
     return $("#console").html();
   },
