@@ -1,18 +1,7 @@
-body.dark-mode {
+body {
   background-color: #333444;
-  color: #fff;
-  f {
-    color: #333444;
-  }
 }
 
-body.light-mode {
-  background-color: #fff;
-  color: #333444;
-  f {
-    color: #fff;
-  }
-}
 #console {
   font-family: courier, monospace;
   color: #fff;
@@ -23,8 +12,7 @@ body.light-mode {
   font-size: 14px;
 }
 
-a {
-  color: #0bc;
+a { color: #0bc;
   text-decoration: none;
 }
 
