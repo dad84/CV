@@ -1,27 +1,16 @@
-body {
+body.dark-mode {
   background-color: #333444;
+  color: #fff;
+  f {
+    color: #333444;
+  }
 }
-.light-mode {
-  background-color: rgb(255, 255, 255);
-  a {
-    color: #0bc;
-    text-decoration: none;
-  }
-  
-  #a {
-    color: rgb(7, 98, 7);
-  }
-  
-  #c {
-    color: rgb(0, 7, 204);
-  }
-  
-  #b {
-    color: rgb(0, 0, 0);
-  }
-  
-  #op {
-    color: #888888;
+
+body.light-mode {
+  background-color: #fff;
+  color: #333444;
+  f {
+    color: #fff;
   }
 }
 #console {

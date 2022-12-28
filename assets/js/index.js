@@ -1,3 +1,9 @@
+function toggleDarkLight() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+}
+
 var Typer = {
   text: "",
   accessCountimer: null,
@@ -15,12 +21,6 @@ var Typer = {
       Typer.text = Typer.text.slice(0, Typer.text.length - 1);
     });
   },
-
-  function colorFunction() {
-    var element = document.body;
-    element.classList.toggle("light-mode");
-  },
-
   content: function () {
     return $("#console").html();
   },
